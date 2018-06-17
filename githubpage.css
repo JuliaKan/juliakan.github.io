@@ -1,0 +1,98 @@
+body{
+	font-family: Amiko;
+	
+}/* Add a black background color to the top navigation */
+
+.topnav{
+    background-color:#ffffff;
+    overflow: hidden;
+	display: block;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a{
+    float: left;
+    color: #00b8e6;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.5vw;
+	width:22%;
+	margin:0 auto;
+	text-align:center;
+	border-radius:4px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+h1{
+	color:#00b8e6;
+	text-align:center;
+	font-size:xx-large;
+	text-decoration:underline;
+}
+h2{
+	color:#999999;
+	text-align:center;
+}
+.Welcome{
+	font:Amiko;
+	display:inline-block;
+	float:left;
+	width:50%;
+	color:#00a3cc;
+	padding:10px;
+}
+#WelcomeBlue{
+	color:#00ccff;
+}
+#JuliaPic{
+	display:inline-block;
+	float:right;
+	border-radius:10px;
+	width:30%;
+}
+.Hello{
+	display:inline-block;
+	float:left;
+	width:50%;
+
+}
+button{
+	display:none;
+}
+@media all and (min-width:900px){
+  body{
+	background-color:grey;
+}
+
+/*.topnav{
+	 border:1px solid #000000;
+    color:#06425C;
+    background-color: #486B02;
+    display:inline-block;
+    width: 20%;
+    min-width: 125px;
+    margin-right:15px;
+    height: 100vh;
+    float:left;
+  }
+  
+  nav a{
+    display:block;
+    line-height: 45px;
+	  height:45px;
+	  color: #FFFFFF;
+	  background-color:#486B02;
+	  text-decoration: none;
+	  padding-left:5px;
+  }
+}*/
