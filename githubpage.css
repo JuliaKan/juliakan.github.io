@@ -69,9 +69,13 @@ p{
 }
 #JuliaPic{
 	display:inline-block;
+	text-align:center;
 	float:right;
-	border-radius:10px;
 	width:30%;
+}
+#me{
+	border-radius:20px;
+	
 }
 .Hello{
 	display:inline-block;
@@ -85,6 +89,18 @@ button{
 @media all and (min-width:900px){
   body{
 	background-color:grey;
+}
+.places{
+	text-align:center;
+}
+#world{
+	height:15%;
+	width:15%;
+	border-radius:50%;
+
+}
+ul{
+	list-style-type:none;
 }
 
 /*.topnav{
