@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+    <img class="airplane" src="images/FlyingRaccoon.png" alt="raccoon piloting an airplane">
+
+
+
+
+
+<style>
+    .airplane {
+        border-radius: 0%;
+        background: transparent;
+        position: fixed;
+        animation-name: fly;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        /*animation-timing-function: ease-out;*/
+        animation-fill-mode: forwards;
+        width: 30%;
+        height: auto;
+    }
+
+@keyframes fly {
+    0% {
+        left: -25%;
+    }
+    100% {
+        left: 115%;
+    }
+}
+    #airplane {
+        left: 5%;
+    }
+
+</style>
+
+<div class="airplane" id="airplane"></div>
+
+</body>
+</html>
