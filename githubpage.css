@@ -1,5 +1,6 @@
 body{
 	font-family: Quicksand;
+	font:Quicksand;
 	
 	
 }
@@ -7,6 +8,7 @@ body{
 html{
 	background-image:url("images/ocean.JPG");
 	background-size:cover;
+	font-family:Quicksand;
 
 }
 
@@ -40,21 +42,37 @@ html{
     background-color: #4CAF50;
     color: white;
 }
+.container{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+#headlinecontainer{
+	display:flex;
+	flex-direction:column;
+	padding: 125px 30px 30px 300px;
+}
 #headline{
 	font-family:Quicksand;
 	color:#ffffff;
 	background:transparent;
 	text-align:center;
-	font-size:xx-large;;
+	font-size:xx-large;
+	display:flex;
+	padding-left:150px;
+	
 }
 #underheadline{
 	
 	color:#ffffff;
 	background:transparent;
 	text-align:center;
-	font-size:xx-large;;
+	font-size:xx-large;
+	display:flex;
+	
 }
 h1{
+	font:Quicksand;
 	text-align:center;
 }
 h2{
@@ -108,7 +126,7 @@ button{
 /*@media all and (min-width:900px){
   body{
 	background-color:white;*/
-}
+
 .places{
 	text-align:center;
 }
@@ -151,7 +169,12 @@ ul{
 #viola{
 	border-radius:50%;
 	float:right;
-	position:relative;
-	right:100px;
-	bottom:20px;
+	height:400px;
+	width:300px;
+	display:flex;
+	padding:50px 60px 30px 30px;
+	box-shadow: 0px 30px 40px rgba(0,0,0,.1);
+}
+#places{
+	text-align:center;
 }
