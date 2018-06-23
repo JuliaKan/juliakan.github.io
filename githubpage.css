@@ -1,6 +1,6 @@
 body{
 	font-family: Quicksand;
-	font:Quicksand;
+	
 	
 	
 }
@@ -16,6 +16,7 @@ html{
     background-color:#ffffff;
     overflow: hidden;
 	display: block;
+	border-radius:5px;
 }
 
 /* Style the links inside the navigation bar */
@@ -93,7 +94,7 @@ p{
 }
 
 .Welcome{
-	font:Amiko;
+	font-family:Quicksand;
 	display:inline-block;
 	float:left;
 	width:50%;
@@ -128,6 +129,7 @@ button{
 	background-color:white;*/
 
 .places{
+	font-family:Quicksand;
 	text-align:center;
 }
 #world{
@@ -177,4 +179,8 @@ ul{
 }
 #places{
 	text-align:center;
+}
+
+#abouttext{
+	font-family:Quicksand;
 }
