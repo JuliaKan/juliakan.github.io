@@ -189,3 +189,19 @@ ul{
 	font-family:Quicksand;
 }
 
+#gitHub{
+	font-size: 2em;
+	text-decoration:none;
+}
+
+#linkedIn{
+	font-size: 2em;
+
+}
+#email{
+	font-size: 2em;
+}
+a{
+	text-decoration: none;
+	color:rgb(1, 1, 93);
+}
