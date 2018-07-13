@@ -211,10 +211,39 @@ a{
 	color:rgb(1, 1, 93);
 }
 
+
+#aboutName{
+	color:white;
+}
+
+#skillHeadline{
+	color:white;
+	font-size:1.25em;
+}
+
+#wrapper{
+	display:flex;
+	flex-direction:row;
+}
 #skills{
 	display:flex;
 	justify-content: flex-start;
-	flex-direction:row;
+	flex-direction:column;
 	font-size: 2em;
 	margin-left:150px;
+	
+}
+
+#projects{
+	display:flex;
+	justify-content:flex-start;
+	flex-direction: column;
+	font-size: 2em;
+	flex-wrap:wrap;
+	margin-left:200px;
+
+}
+
+#projectsHeadline{
+	color:white;
 }
