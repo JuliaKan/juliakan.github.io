@@ -52,15 +52,17 @@ html{
 	display:flex;
 	flex-direction:column;
 	padding: 125px 30px 30px 300px;
+	font-size:1.5em;
 }
 #headline{
 	font-family:Quicksand;
 	color:#ffffff;
 	background:transparent;
 	text-align:center;
-	font-size:xx-large;
+	font-size:2.25em;
 	display:flex;
 	padding-left:150px;
+	margin-left:55px;
 	
 }
 #underheadline{
@@ -174,8 +176,10 @@ ul{
 	height:400px;
 	width:300px;
 	display:flex;
-	padding:50px 60px 30px 30px;
+	padding:30px 30px 30px 30px;
 	box-shadow: 0px 30px 30px rgba(0,0,0,0.1);
+	margin-right:200px;
+	margin-top:40px;
 }
 #places{
 	text-align:center;
@@ -184,3 +188,4 @@ ul{
 #abouttext{
 	font-family:Quicksand;
 }
+
