@@ -205,3 +205,11 @@ a{
 	text-decoration: none;
 	color:rgb(1, 1, 93);
 }
+
+#skills{
+	display:flex;
+	justify-content: flex-start;
+	flex-direction:row;
+	font-size: 2em;
+	margin-left:150px;
+}
